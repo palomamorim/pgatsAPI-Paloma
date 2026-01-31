@@ -2,7 +2,7 @@ const request = require('supertest');
 const {expect} = require('chai');
 
 
-describe('User Controller', () => {
+describe('User External', () => {
     describe('POST /users/register', () => {       
      it('Quando e-mail já existir na base de dados retornar erro', async() => {
             // usar o supertest para fazer requisições na minha api

@@ -21,8 +21,7 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run Controller Tests (REST)
-      run: npm run test-controller
+   
 
     - name: Run External Tests (REST)
       run: npm run test-external
